@@ -4,6 +4,10 @@ pluginManagement {
 			name = 'Fabric'
 			url = 'https://maven.fabricmc.net/'
 		}
+		// LuckPerms 权限 API 仓库
+		maven {
+			url = "https://repo.lucko.me"
+		}
 		mavenCentral()
 		gradlePluginPortal()
 	}
